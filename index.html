@@ -52,7 +52,7 @@
         const inputs = document.querySelectorAll('.inputBox');
         inputs.forEach((input) => {
             input.addEventListener("input",function(){
-                this.value = this.value.replace(/[^A-Za-z]/g, '');
+                this.value = this.value.replace(/[^A-Za-z ]/g, '');
             })
         });
 
